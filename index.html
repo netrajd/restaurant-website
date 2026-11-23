@@ -1,0 +1,1036 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Aura & Hearth Bistro - Artisanal wood-fired dining, farm-to-table seasonal delicacies, and handcrafted patisserie in the heart of the city.">
+  <title>Aura & Hearth Bistro | Artisanal Dining & Wood-Fired Hearth</title>
+  
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700&family=Playfair+Display:ital,wght@0,500;0,600;0,700;1,400;1,600&display=swap" rel="stylesheet">
+  
+  <!-- Stylesheet -->
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+  <!-- Top Announcement Bar -->
+  <aside class="announcement-bar" aria-label="Announcement">
+    <div class="container announcement-inner">
+      <span>✨ <strong>Autumn Truffle & Wine Pairing:</strong> Reserved seatings now available for Friday & Saturday evenings.</span>
+      <a href="#specials" class="announcement-link">Discover More &rarr;</a>
+    </div>
+  </aside>
+
+  <!-- Site Header & Navigation -->
+  <header class="site-header" id="header">
+    <div class="container header-container">
+      <a href="#home" class="brand-logo" aria-label="Aura & Hearth Bistro Home">
+        <span class="logo-emblem">✦</span>
+        <span class="logo-text">
+          <span class="brand-name">Aura & Hearth</span>
+          <span class="brand-sub">Bistro & Patisserie</span>
+        </span>
+      </a>
+
+      <!-- Desktop Navigation -->
+      <nav class="main-nav" id="main-nav" aria-label="Main Navigation">
+        <ul class="nav-list">
+          <li class="nav-item"><a href="#home" class="nav-link active">Home</a></li>
+          <li class="nav-item"><a href="#about" class="nav-link">About</a></li>
+          <li class="nav-item"><a href="#menu" class="nav-link">Menu</a></li>
+          <li class="nav-item"><a href="#specials" class="nav-link">Specials</a></li>
+          <li class="nav-item"><a href="#gallery" class="nav-link">Gallery</a></li>
+          <li class="nav-item"><a href="#testimonials" class="nav-link">Stories</a></li>
+          <li class="nav-item"><a href="#contact" class="nav-link">Contact</a></li>
+        </ul>
+      </nav>
+
+      <!-- Header Controls -->
+      <div class="header-actions">
+        <!-- Theme Toggle Button -->
+        <button id="theme-toggle" class="theme-toggle-btn" type="button" aria-label="Toggle dark/light theme" title="Toggle Theme">
+          <span class="theme-icon light-icon" aria-hidden="true">☀️</span>
+          <span class="theme-icon dark-icon" aria-hidden="true">🌙</span>
+        </button>
+
+        <!-- Reservation CTA -->
+        <button class="btn btn-primary nav-reserve-btn" id="open-reserve-btn" type="button">
+          Book a Table
+        </button>
+
+        <!-- Mobile Hamburger Button -->
+        <button class="mobile-toggle" id="mobile-toggle" type="button" aria-label="Toggle navigation menu" aria-expanded="false" aria-controls="main-nav">
+          <span class="hamburger-bar"></span>
+          <span class="hamburger-bar"></span>
+          <span class="hamburger-bar"></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <!-- HERO SECTION -->
+    <section class="hero-section" id="home">
+      <div class="container hero-container">
+        <div class="hero-content">
+          <div class="hero-badge-pill">
+            <span class="pill-dot"></span> Voted Best Farm-to-Table Experience 2026
+          </div>
+          <h1 class="hero-title">
+            Where Rustic Warmth Meets Modern Culinary Art.
+          </h1>
+          <p class="hero-description">
+            Experience seasonally inspired plates slow-roasted in our wood-fired hearth, naturally fermented sourdough breads, and hand-selected biodynamic wines.
+          </p>
+          <div class="hero-cta-group">
+            <a href="#menu" class="btn btn-primary btn-lg">Explore Menu</a>
+            <button class="btn btn-secondary btn-lg" id="hero-reserve-btn" type="button">Reserve a Table</button>
+          </div>
+
+          <!-- Quick Highlights -->
+          <div class="hero-stats">
+            <div class="stat-item">
+              <span class="stat-number">4.9 ★</span>
+              <span class="stat-label">Over 1,400+ Reviews</span>
+            </div>
+            <div class="stat-divider" aria-hidden="true"></div>
+            <div class="stat-item">
+              <span class="stat-number">100%</span>
+              <span class="stat-label">Organic Farm Sourced</span>
+            </div>
+            <div class="stat-divider" aria-hidden="true"></div>
+            <div class="stat-item">
+              <span class="stat-number">850°</span>
+              <span class="stat-label">Wood-Fired Hearth</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="hero-visual">
+          <div class="hero-image-wrapper">
+            <img 
+              src="https://images.unsplash.com/photo-1544025162-d76694265947?auto=format&fit=crop&w=1000&q=80" 
+              alt="Artisanal wood-fired gourmet dish with fresh herbs and reduction sauce" 
+              class="hero-img"
+              width="600"
+              height="700"
+              fetchpriority="high"
+            >
+            <!-- Floating Highlights Badge -->
+            <div class="hero-floating-card floating-dish">
+              <div class="floating-icon">🔥</div>
+              <div class="floating-text">
+                <span class="floating-title">Hearth-Roasted</span>
+                <span class="floating-desc">Daily fresh cuts & bread</span>
+              </div>
+            </div>
+            <div class="hero-floating-card floating-hours">
+              <div class="floating-icon">🌿</div>
+              <div class="floating-text">
+                <span class="floating-title">Open Daily</span>
+                <span class="floating-desc">11:00 AM – 11:00 PM</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ABOUT SECTION -->
+    <section class="section about-section" id="about">
+      <div class="container">
+        <div class="about-grid">
+          <div class="about-visual">
+            <div class="about-images-collage">
+              <img 
+                src="https://images.unsplash.com/photo-1555396273-367ea4eb4db5?auto=format&fit=crop&w=800&q=80" 
+                alt="Chefs carefully preparing artisanal plates in a lively open kitchen" 
+                class="about-img-main"
+                loading="lazy"
+              >
+              <div class="about-experience-badge">
+                <span class="exp-years">14</span>
+                <span class="exp-text">Years of Culinary Craft</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="about-content">
+            <div class="section-tag">Our Heritage & Craft</div>
+            <h2 class="section-title">Rooted in Earth, Perfected by Flame</h2>
+            <p class="about-lead">
+              Founded in 2012 by Executive Chef Nicolas Vance and Master Baker Elena Rossi, <strong>Aura & Hearth</strong> was born from a singular passion: returning to honest, soulful culinary traditions.
+            </p>
+            <p class="about-text">
+              Every morning begins at 5:00 AM with the crackle of seasoned oak in our custom stone hearth. We partner directly with 18 local heritage farms to harvest seasonal produce at peak ripeness. From our 48-hour fermented sourdough loaves to slow-braised cuts, every dish tells a story of care and patience.
+            </p>
+
+            <div class="about-features-grid">
+              <div class="feature-card">
+                <div class="feature-icon" aria-hidden="true">🌱</div>
+                <div class="feature-info">
+                  <h3 class="feature-title">100% Organic Sourcing</h3>
+                  <p class="feature-desc">Direct relationships with sustainable regional growers and ethical dairies.</p>
+                </div>
+              </div>
+
+              <div class="feature-card">
+                <div class="feature-icon" aria-hidden="true">🪵</div>
+                <div class="feature-info">
+                  <h3 class="feature-title">Wood-Fired Hearth</h3>
+                  <p class="feature-desc">Authentic cooking over fragrant applewood and white oak embers.</p>
+                </div>
+              </div>
+
+              <div class="feature-card">
+                <div class="feature-icon" aria-hidden="true">🥖</div>
+                <div class="feature-info">
+                  <h3 class="feature-title">Heritage Sourdough</h3>
+                  <p class="feature-desc">Wild-starter breads baked fresh thrice daily with ancient grains.</p>
+                </div>
+              </div>
+
+              <div class="feature-card">
+                <div class="feature-icon" aria-hidden="true">🍷</div>
+                <div class="feature-info">
+                  <h3 class="feature-title">Biodynamic Cellar</h3>
+                  <p class="feature-desc">Curated low-intervention natural wines and botanical craft tonics.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SPECIALS & OFFERS SECTION -->
+    <section class="section specials-section" id="specials">
+      <div class="container">
+        <div class="section-header text-center">
+          <div class="section-tag">Chef's Curations</div>
+          <h2 class="section-title">Seasonal Specials & Exclusive Offers</h2>
+          <p class="section-subtitle">Limited-time tasting experiences designed around this month's finest harvest.</p>
+        </div>
+
+        <div class="specials-featured-card">
+          <div class="specials-banner-tag">Chef's Signature Experience</div>
+          <div class="specials-grid">
+            <div class="specials-image">
+              <img 
+                src="https://images.unsplash.com/photo-1544025162-d76694265947?auto=format&fit=crop&w=800&q=80" 
+                alt="Wood-Fired Prime Ribeye with rosemary butter and charred heirloom shallots" 
+                loading="lazy"
+              >
+            </div>
+            <div class="specials-details">
+              <div class="specials-price-badge">
+                <span class="old-price"></span>
+                <span class="new-price"></span>
+              </div>
+              <h3 class="specials-dish-name">Wood-Fired Prime Ribeye & Black Truffle Butter</h3>
+              <p class="specials-dish-desc">
+                45-day dry-aged pasture-raised beef, seared over screaming white oak coals, finished with Périgord black truffle emulsion, charred wild ramps, and smoked sea salt. Served with duck-fat fingerling potatoes.
+              </p>
+              <ul class="specials-perks">
+                <li>✓ Includes complimentary glass of aged Nebbiolo</li>
+                <li>✓ Available exclusively Tuesday through Sunday evenings</li>
+                <li>✓ Sourced from Willow Creek Grass-Fed Ranch</li>
+              </ul>
+              <div class="specials-actions">
+                <button class="btn btn-primary open-reserve-modal-special" type="button" data-dish="Wood-Fired Prime Ribeye Special">
+                  Reserve This Special
+                </button>
+                <span class="specials-availability">⚡ Only 25 portions prepared nightly</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- 2 Secondary Offer Cards -->
+        <div class="offers-grid">
+          <div class="offer-card">
+            <div class="offer-badge">Every Wednesday & Thursday</div>
+            <h3 class="offer-title">Twilight Aperitivo Hour</h3>
+            <p class="offer-desc">Order any artisanal botanical cocktail or craft mocktail between 4:30 PM & 6:30 PM and enjoy a complimentary chef's cicchetti & sourdough board.</p>
+            <div class="offer-footer">
+              <span class="offer-time">4:30 PM – 6:30 PM</span>
+              <a href="#menu" class="offer-link">View Drinks &rarr;</a>
+            </div>
+          </div>
+
+          <div class="offer-card">
+            <div class="offer-badge">Weekend Mornings</div>
+            <h3 class="offer-title">Artisan Hearth Brunch & Flight</h3>
+            <p class="offer-desc">Feast on brioche French toast, poached farm eggs with smoked hollandaise, and our signature cold brew or fresh citrus mimosa flight.</p>
+            <div class="offer-footer">
+              <span class="offer-time">Sat & Sun: 9:00 AM – 2:00 PM</span>
+              <a href="#menu" class="offer-link">Explore Brunch &rarr;</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- MENU SECTION -->
+    <section class="section menu-section" id="menu">
+      <div class="container">
+        <div class="section-header text-center">
+          <div class="section-tag">Seasonal Culinary Craft</div>
+          <h2 class="section-title">Our Handcrafted Menu</h2>
+          <p class="section-subtitle">
+            Freshly prepared every day with seasonal ingredients harvested from our partner organic farms.
+          </p>
+
+          <!-- Category Filter Bar -->
+          <nav class="menu-filter-nav" aria-label="Menu categories">
+            <div class="filter-btn-group" role="tablist">
+              <button class="filter-btn active" role="tab" aria-selected="true" data-filter="all">All Dishes</button>
+              <button class="filter-btn" role="tab" aria-selected="false" data-filter="starters">Starters & Boards</button>
+              <button class="filter-btn" role="tab" aria-selected="false" data-filter="mains">Hearth Mains</button>
+              <button class="filter-btn" role="tab" aria-selected="false" data-filter="pizzas">Artisanal Pizzas</button>
+              <button class="filter-btn" role="tab" aria-selected="false" data-filter="desserts">Patisserie & Sweets</button>
+              <button class="filter-btn" role="tab" aria-selected="false" data-filter="drinks">Beverages & Wine</button>
+            </div>
+          </nav>
+        </div>
+
+        <!-- Menu Items Grid (12 Items) -->
+        <div class="menu-grid" id="menu-grid">
+          
+          <!-- Item 1: Starter -->
+          <article class="menu-card" data-category="starters">
+            <div class="menu-card-img-wrap">
+              <img 
+                src="https://images.unsplash.com/photo-1540420773420-3366772f4999?auto=format&fit=crop&w=600&q=80" 
+                alt="Heirloom Tomato and Burrata Salad with aged balsamic" 
+                class="menu-card-img"
+                loading="lazy"
+              >
+              <span class="menu-badge vegetarian">🌱 Vegetarian</span>
+            </div>
+            <div class="menu-card-body">
+              <div class="menu-card-header">
+                <h3 class="menu-card-title">Heirloom Burrata & Peach Caprese</h3>
+                <span class="menu-card-price">.50</span>
+              </div>
+              <p class="menu-card-desc">
+                Creamy Pugliese burrata, grilled Palisade peaches, marinated heirloom tomatoes, wild basil oil, and 12-year Modena balsamic glaze.
+              </p>
+              <div class="menu-card-footer">
+                <span class="dietary-tag">Gluten-Free Available</span>
+                <button class="order-btn" type="button" aria-label="Add Heirloom Burrata to order">Order Dish</button>
+              </div>
+            </div>
+          </article>
+
+          <!-- Item 2: Starter -->
+          <article class="menu-card" data-category="starters">
+            <div class="menu-card-img-wrap">
+              <img 
+                src="https://images.unsplash.com/photo-1509440159596-0249088772ff?auto=format&fit=crop&w=600&q=80" 
+                alt="Warm artisanal hearth sourdough with whipped herb cultured butter" 
+                class="menu-card-img"
+                loading="lazy"
+              >
+              <span class="menu-badge special">⭐ House Favorite</span>
+            </div>
+            <div class="menu-card-body">
+              <div class="menu-card-header">
+                <h3 class="menu-card-title">Hearth Sourdough & Cultured Butter</h3>
+                <span class="menu-card-price">.00</span>
+              </div>
+              <p class="menu-card-desc">
+                48-hour naturally leavened country sourdough, warm from the hearth, served with churned sea-salt butter, roasted garlic confit, and rosemary salt.
+              </p>
+              <div class="menu-card-footer">
+                <span class="dietary-tag">Baked Thrice Daily</span>
+                <button class="order-btn" type="button" aria-label="Add Hearth Sourdough to order">Order Dish</button>
+              </div>
+            </div>
+          </article>
+
+          <!-- Item 3: Main -->
+          <article class="menu-card" data-category="mains">
+            <div class="menu-card-img-wrap">
+              <img 
+                src="https://images.unsplash.com/photo-1467003909585-2f8a72700288?auto=format&fit=crop&w=600&q=80" 
+                alt="Pan-seared wild king salmon with asparagus and dill cream" 
+                class="menu-card-img"
+                loading="lazy"
+              >
+              <span class="menu-badge gluten-free">🌾 Gluten-Free</span>
+            </div>
+            <div class="menu-card-body">
+              <div class="menu-card-header">
+                <h3 class="menu-card-title">Cedar Plank Wild King Salmon</h3>
+                <span class="menu-card-price">.00</span>
+              </div>
+              <p class="menu-card-desc">
+                Pacific wild-caught salmon slow-roasted over aromatic cedar, Meyer lemon velouté, charred asparagus spears, and celery root purée.
+              </p>
+              <div class="menu-card-footer">
+                <span class="dietary-tag">Sustainably Fished</span>
+                <button class="order-btn" type="button" aria-label="Add Wild King Salmon to order">Order Dish</button>
+              </div>
+            </div>
+          </article>
+
+          <!-- Item 4: Main -->
+          <article class="menu-card" data-category="mains">
+            <div class="menu-card-img-wrap">
+              <img 
+                src="https://images.unsplash.com/photo-1544025162-d76694265947?auto=format&fit=crop&w=600&q=80" 
+                alt="Braised beef short rib over creamy polenta" 
+                class="menu-card-img"
+                loading="lazy"
+              >
+              <span class="menu-badge chef">🔥 Chef Signature</span>
+            </div>
+            <div class="menu-card-body">
+              <div class="menu-card-header">
+                <h3 class="menu-card-title">Braised Angus Short Rib</h3>
+                <span class="menu-card-price">.00</span>
+              </div>
+              <p class="menu-card-desc">
+                12-hour Chianti-braised beef short rib, stone-ground mascarpone polenta, glazed baby heirloom carrots, and crispy shallot crumble.
+              </p>
+              <div class="menu-card-footer">
+                <span class="dietary-tag">Locally Sourced</span>
+                <button class="order-btn" type="button" aria-label="Add Braised Short Rib to order">Order Dish</button>
+              </div>
+            </div>
+          </article>
+
+          <!-- Item 5: Main -->
+          <article class="menu-card" data-category="mains">
+            <div class="menu-card-img-wrap">
+              <img 
+                src="https://images.unsplash.com/photo-1551183053-bf91a1d81141?auto=format&fit=crop&w=600&q=80" 
+                alt="Handcrafted pappardelle pasta with wild forest mushroom ragù" 
+                class="menu-card-img"
+                loading="lazy"
+              >
+              <span class="menu-badge vegetarian">🌱 Vegetarian</span>
+            </div>
+            <div class="menu-card-body">
+              <div class="menu-card-header">
+                <h3 class="menu-card-title">Handcrafted Wild Chanterelle Pappardelle</h3>
+                <span class="menu-card-price">.50</span>
+              </div>
+              <p class="menu-card-desc">
+                Fresh egg pasta extruded in-house, foraged chanterelle and morel ragù, white wine butter emulsion, fresh thyme, and 24-month Parmigiano-Reggiano.
+              </p>
+              <div class="menu-card-footer">
+                <span class="dietary-tag">Fresh House Pasta</span>
+                <button class="order-btn" type="button" aria-label="Add Chanterelle Pappardelle to order">Order Dish</button>
+              </div>
+            </div>
+          </article>
+
+          <!-- Item 6: Pizza -->
+          <article class="menu-card" data-category="pizzas">
+            <div class="menu-card-img-wrap">
+              <img 
+                src="https://images.unsplash.com/photo-1513104890138-7c749659a591?auto=format&fit=crop&w=600&q=80" 
+                alt="Wood-fired artisanal sourdough Margherita pizza with fresh basil" 
+                class="menu-card-img"
+                loading="lazy"
+              >
+              <span class="menu-badge special">🍕 850° Hearth</span>
+            </div>
+            <div class="menu-card-body">
+              <div class="menu-card-header">
+                <h3 class="menu-card-title">San Marzano D.O.P. Margherita</h3>
+                <span class="menu-card-price">.00</span>
+              </div>
+              <p class="menu-card-desc">
+                Crushed volcanic San Marzano tomatoes, fresh fior di latte mozzarella, whole leaf sweet basil, Sicilian extra virgin olive oil on blistered sourdough crust.
+              </p>
+              <div class="menu-card-footer">
+                <span class="dietary-tag">Naturally Leavened</span>
+                <button class="order-btn" type="button" aria-label="Add San Marzano Margherita to order">Order Dish</button>
+              </div>
+            </div>
+          </article>
+
+          <!-- Item 7: Pizza -->
+          <article class="menu-card" data-category="pizzas">
+            <div class="menu-card-img-wrap">
+              <img 
+                src="https://images.unsplash.com/photo-1565299624946-b28f40a0ae38?auto=format&fit=crop&w=600&q=80" 
+                alt="Prosciutto di Parma and baby arugula pizza with hot honey drizzle" 
+                class="menu-card-img"
+                loading="lazy"
+              >
+              <span class="menu-badge spicy">🌶️ Hot Honey</span>
+            </div>
+            <div class="menu-card-body">
+              <div class="menu-card-header">
+                <h3 class="menu-card-title">Parma Prosciutto & Hot Honey Pizza</h3>
+                <span class="menu-card-price">.00</span>
+              </div>
+              <p class="menu-card-desc">
+                Aged 18-month Prosciutto di Parma, fontina, fresh mozzarella, wild peppery arugula, and a generous drizzle of house-infused habanero wildflower honey.
+              </p>
+              <div class="menu-card-footer">
+                <span class="dietary-tag">Sweet & Savory</span>
+                <button class="order-btn" type="button" aria-label="Add Parma Prosciutto Pizza to order">Order Dish</button>
+              </div>
+            </div>
+          </article>
+
+          <!-- Item 8: Dessert -->
+          <article class="menu-card" data-category="desserts">
+            <div class="menu-card-img-wrap">
+              <img 
+                src="https://images.unsplash.com/photo-1578985545062-69928b1d9587?auto=format&fit=crop&w=600&q=80" 
+                alt="Decadent dark chocolate molten lava cake with raspberry compote" 
+                class="menu-card-img"
+                loading="lazy"
+              >
+              <span class="menu-badge special">🍫 Valrhona Dark</span>
+            </div>
+            <div class="menu-card-body">
+              <div class="menu-card-header">
+                <h3 class="menu-card-title">Warm Molten Valrhona Chocolate Cake</h3>
+                <span class="menu-card-price">.00</span>
+              </div>
+              <p class="menu-card-desc">
+                70% single-origin French chocolate fondant with a flowing center, Madagascar bourbon vanilla bean gelato, and tart wild raspberry reduction.
+              </p>
+              <div class="menu-card-footer">
+                <span class="dietary-tag">Baked to Order</span>
+                <button class="order-btn" type="button" aria-label="Add Molten Chocolate Cake to order">Order Dish</button>
+              </div>
+            </div>
+          </article>
+
+          <!-- Item 9: Dessert -->
+          <article class="menu-card" data-category="desserts">
+            <div class="menu-card-img-wrap">
+              <img 
+                src="https://images.unsplash.com/photo-1587314168485-3236d6710814?auto=format&fit=crop&w=600&q=80" 
+                alt="Classic Italian artisanal tiramisu dusted with espresso cocoa" 
+                class="menu-card-img"
+                loading="lazy"
+              >
+              <span class="menu-badge vegetarian">🌱 House Patisserie</span>
+            </div>
+            <div class="menu-card-body">
+              <div class="menu-card-header">
+                <h3 class="menu-card-title">Espresso & Amaretto Tiramisù</h3>
+                <span class="menu-card-price">.50</span>
+              </div>
+              <p class="menu-card-desc">
+                House-baked savoiardi biscuits soaked in single-origin Ethiopian cold brew and Disaronno, whipped zabaglione mascarpone, and Valrhona cocoa powder.
+              </p>
+              <div class="menu-card-footer">
+                <span class="dietary-tag">Classic Heritage</span>
+                <button class="order-btn" type="button" aria-label="Add Tiramisu to order">Order Dish</button>
+              </div>
+            </div>
+          </article>
+
+          <!-- Item 10: Drink -->
+          <article class="menu-card" data-category="drinks">
+            <div class="menu-card-img-wrap">
+              <img 
+                src="https://images.unsplash.com/photo-1514362545857-3bc16c4c7d1b?auto=format&fit=crop&w=600&q=80" 
+                alt="Smoked botanical rosemary cocktail in crystal glass" 
+                class="menu-card-img"
+                loading="lazy"
+              >
+              <span class="menu-badge special">🍸 Mixologist Craft</span>
+            </div>
+            <div class="menu-card-body">
+              <div class="menu-card-header">
+                <h3 class="menu-card-title">The Hearthside Smoked Old Fashioned</h3>
+                <span class="menu-card-price">.00</span>
+              </div>
+              <p class="menu-card-desc">
+                Small-batch bourbon, roasted demerara syrup, Angostura & orange bitters, smoked table-side with charred applewood chips and torched rosemary sprig.
+              </p>
+              <div class="menu-card-footer">
+                <span class="dietary-tag">Artisan Cocktail</span>
+                <button class="order-btn" type="button" aria-label="Add Smoked Old Fashioned to order">Order Dish</button>
+              </div>
+            </div>
+          </article>
+
+          <!-- Item 11: Drink -->
+          <article class="menu-card" data-category="drinks">
+            <div class="menu-card-img-wrap">
+              <img 
+                src="https://images.unsplash.com/photo-1510812431401-41d2bd2722f3?auto=format&fit=crop&w=600&q=80" 
+                alt="Glass of biodynamic ruby red wine with bottle in background" 
+                class="menu-card-img"
+                loading="lazy"
+              >
+              <span class="menu-badge vegetarian">🍷 Natural Cellar</span>
+            </div>
+            <div class="menu-card-body">
+              <div class="menu-card-header">
+                <h3 class="menu-card-title">2021 Cascina Barolo D.O.C.G.</h3>
+                <span class="menu-card-price"> / Glass</span>
+              </div>
+              <p class="menu-card-desc">
+                100% Nebbiolo from Piedmont, Italy. Notes of dried rose petals, dark cherries, forest floor, and structured velvety tannins. Certified organic & biodynamic.
+              </p>
+              <div class="menu-card-footer">
+                <span class="dietary-tag">Sommelier Pairing</span>
+                <button class="order-btn" type="button" aria-label="Add Barolo wine to order">Order Dish</button>
+              </div>
+            </div>
+          </article>
+
+          <!-- Item 12: Starter / Board -->
+          <article class="menu-card" data-category="starters">
+            <div class="menu-card-img-wrap">
+              <img 
+                src="https://images.unsplash.com/photo-1541544741938-0af808871cc0?auto=format&fit=crop&w=600&q=80" 
+                alt="Artisanal charcuterie board with cured meats, artisanal cheeses, and fig jam" 
+                class="menu-card-img"
+                loading="lazy"
+              >
+              <span class="menu-badge chef">🧀 Charcuterie</span>
+            </div>
+            <div class="menu-card-body">
+              <div class="menu-card-header">
+                <h3 class="menu-card-title">Artisan Hearth Charcuterie Board</h3>
+                <span class="menu-card-price">.00</span>
+              </div>
+              <p class="menu-card-desc">
+                Prosciutto speck, finocchiona salami, triple-cream brie, 18-month aged gouda, Marcona almonds, house honeycomb, and grilled hearth crackers.
+              </p>
+              <div class="menu-card-footer">
+                <span class="dietary-tag">Perfect for Sharing</span>
+                <button class="order-btn" type="button" aria-label="Add Charcuterie Board to order">Order Dish</button>
+              </div>
+            </div>
+          </article>
+
+        </div>
+
+        <div class="menu-cta-banner">
+          <p>Have specific dietary requirements or food allergies? Let our culinary team know!</p>
+          <button class="btn btn-secondary open-reserve-modal-btn" type="button">Reserve with Dietary Notes</button>
+        </div>
+      </div>
+    </section>
+
+    <!-- PHOTO GALLERY SECTION -->
+    <section class="section gallery-section" id="gallery">
+      <div class="container">
+        <div class="section-header text-center">
+          <div class="section-tag">Ambiance & Craft</div>
+          <h2 class="section-title">A Glimpse into Our World</h2>
+          <p class="section-subtitle">From quiet candlelit corners to the golden crackle of the hearth.</p>
+        </div>
+
+        <div class="gallery-grid">
+          <figure class="gallery-item item-1">
+            <img 
+              src="https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?auto=format&fit=crop&w=800&q=80" 
+              alt="Warm candlelit dining room at Aura and Hearth with rustic wood accents" 
+              loading="lazy"
+            >
+            <figcaption class="gallery-overlay">
+              <span class="gallery-caption-title">Candlelit Main Dining Room</span>
+              <span class="gallery-caption-sub">Cozy evening gatherings</span>
+            </figcaption>
+          </figure>
+
+          <figure class="gallery-item item-2">
+            <img 
+              src="https://images.unsplash.com/photo-1555396273-367ea4eb4db5?auto=format&fit=crop&w=800&q=80" 
+              alt="Artisanal open hearth kitchen with chefs plating dishes" 
+              loading="lazy"
+            >
+            <figcaption class="gallery-overlay">
+              <span class="gallery-caption-title">The Open Hearth Kitchen</span>
+              <span class="gallery-caption-sub">Live culinary theater</span>
+            </figcaption>
+          </figure>
+
+          <figure class="gallery-item item-3">
+            <img 
+              src="https://images.unsplash.com/photo-1509440159596-0249088772ff?auto=format&fit=crop&w=800&q=80" 
+              alt="Freshly baked artisan sourdough loaves cooling on bakery racks" 
+              loading="lazy"
+            >
+            <figcaption class="gallery-overlay">
+              <span class="gallery-caption-title">Fresh Hearth Loaves</span>
+              <span class="gallery-caption-sub">Handcrafted at 5:00 AM</span>
+            </figcaption>
+          </figure>
+
+          <figure class="gallery-item item-4">
+            <img 
+              src="https://images.unsplash.com/photo-1551183053-bf91a1d81141?auto=format&fit=crop&w=800&q=80" 
+              alt="Plated handcrafted pasta with parmesan shavings" 
+              loading="lazy"
+            >
+            <figcaption class="gallery-overlay">
+              <span class="gallery-caption-title">Handmade Egg Pasta</span>
+              <span class="gallery-caption-sub">Extruded fresh daily</span>
+            </figcaption>
+          </figure>
+
+          <figure class="gallery-item item-5">
+            <img 
+              src="https://images.unsplash.com/photo-1514362545857-3bc16c4c7d1b?auto=format&fit=crop&w=800&q=80" 
+              alt="Mixologist pouring botanical cocktails behind the copper bar" 
+              loading="lazy"
+            >
+            <figcaption class="gallery-overlay">
+              <span class="gallery-caption-title">The Copper Bar</span>
+              <span class="gallery-caption-sub">Botanical cocktails & aperitivos</span>
+            </figcaption>
+          </figure>
+
+          <figure class="gallery-item item-6">
+            <img 
+              src="https://images.unsplash.com/photo-1537047902294-62a40c20a6ae?auto=format&fit=crop&w=800&q=80" 
+              alt="Outdoor courtyard patio lit with warm string fairy lights" 
+              loading="lazy"
+            >
+            <figcaption class="gallery-overlay">
+              <span class="gallery-caption-title">Verdant Garden Patio</span>
+              <span class="gallery-caption-sub">Al fresco seasonal dining</span>
+            </figcaption>
+          </figure>
+        </div>
+      </div>
+    </section>
+
+    <!-- TESTIMONIALS SECTION -->
+    <section class="section testimonials-section" id="testimonials">
+      <div class="container">
+        <div class="section-header text-center">
+          <div class="section-tag">Diner Impressions</div>
+          <h2 class="section-title">Words from Our Guests</h2>
+          <p class="section-subtitle">Real experiences shared by passionate diners and food critics alike.</p>
+        </div>
+
+        <div class="testimonials-grid">
+          
+          <blockquote class="testimonial-card">
+            <div class="stars" aria-label="5 out of 5 stars">★★★★★</div>
+            <p class="testimonial-quote">
+              "The wood-fired sourdough alone is worth the trip across town, but the braised short rib is what made this our absolute favorite restaurant in the city. The staff makes you feel like long-lost family from the second you walk in."
+            </p>
+            <footer class="testimonial-author">
+              <img 
+                src="https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&w=150&q=80" 
+                alt="Sarah Jenkins profile" 
+                class="author-avatar"
+                loading="lazy"
+              >
+              <div class="author-details">
+                <cite class="author-name">Sarah Jenkins</cite>
+                <span class="author-title">Food & Wine Columnist</span>
+              </div>
+            </footer>
+          </blockquote>
+
+          <blockquote class="testimonial-card featured-testimonial">
+            <div class="testimonial-award-pill">Editor's Choice 2026</div>
+            <div class="stars" aria-label="5 out of 5 stars">★★★★★</div>
+            <p class="testimonial-quote">
+              "Aura & Hearth strikes that elusive balance between Michelin-level technical culinary precision and the warm, unpretentious soul of an old-world village trattoria. Unmissable dining."
+            </p>
+            <footer class="testimonial-author">
+              <img 
+                src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&w=150&q=80" 
+                alt="Marcus Sterling profile" 
+                class="author-avatar"
+                loading="lazy"
+              >
+              <div class="author-details">
+                <cite class="author-name">Marcus Sterling</cite>
+                <span class="author-title">The Culinary Review Chronicle</span>
+              </div>
+            </footer>
+          </blockquote>
+
+          <blockquote class="testimonial-card">
+            <div class="stars" aria-label="5 out of 5 stars">★★★★★</div>
+            <p class="testimonial-quote">
+              "We celebrated our 10th anniversary on the garden patio under the fairy lights. Every single course—from the peach burrata to the molten cake—was pure poetry. The wine recommendations were flawless."
+            </p>
+            <footer class="testimonial-author">
+              <img 
+                src="https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?auto=format&fit=crop&w=150&q=80" 
+                alt="Elena Morales profile" 
+                class="author-avatar"
+                loading="lazy"
+              >
+              <div class="author-details">
+                <cite class="author-name">Elena Morales</cite>
+                <span class="author-title">Verified Local Patron</span>
+              </div>
+            </footer>
+          </blockquote>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- HOURS, LOCATION & CONTACT SECTION -->
+    <section class="section contact-section" id="contact">
+      <div class="container">
+        <div class="section-header text-center">
+          <div class="section-tag">Visit & Connect</div>
+          <h2 class="section-title">Hours, Location & Reservations</h2>
+          <p class="section-subtitle">Join us around the hearth. We recommend reserving tables at least 24 hours in advance.</p>
+        </div>
+
+        <div class="contact-grid">
+          <!-- Info Column: Hours & Contact -->
+          <div class="contact-info-card">
+            
+            <div class="info-block">
+              <div class="info-icon" aria-hidden="true">🕒</div>
+              <div class="info-content">
+                <h3 class="info-heading">Opening Hours</h3>
+                <ul class="hours-list">
+                  <li><span class="day">Monday – Thursday:</span> <span class="time">11:30 AM – 10:00 PM</span></li>
+                  <li><span class="day">Friday:</span> <span class="time">11:30 AM – 11:30 PM</span></li>
+                  <li><span class="day">Saturday (Brunch & Dinner):</span> <span class="time">9:00 AM – 11:30 PM</span></li>
+                  <li><span class="day">Sunday (Brunch & Hearth):</span> <span class="time">9:00 AM – 9:30 PM</span></li>
+                  <li class="happy-hour-note"><strong>Happy Hour:</strong> Daily 4:00 PM – 6:30 PM at the Copper Bar</li>
+                </ul>
+              </div>
+            </div>
+
+            <div class="info-block">
+              <div class="info-icon" aria-hidden="true">📍</div>
+              <div class="info-content">
+                <h3 class="info-heading">Our Address</h3>
+                <address class="address-text">
+                  428 Hearthstone Promenade, Historic Mill District<br>
+                  Portland, OR 97209<br>
+                  <span class="sub-address">Valet parking available at front entrance. Nearest Metro: Mill District Station (2 min walk).</span>
+                </address>
+              </div>
+            </div>
+
+            <div class="info-block">
+              <div class="info-icon" aria-hidden="true">📞</div>
+              <div class="info-content">
+                <h3 class="info-heading">Contact & Inquiries</h3>
+                <p class="contact-line"><strong>Phone:</strong> <a href="tel:+15035558921">(503) 555-8921</a></p>
+                <p class="contact-line"><strong>Email:</strong> <a href="mailto:hello@aurathearthbistro.com">hello@aurathearthbistro.com</a></p>
+                <p class="contact-line"><strong>Private Events:</strong> <a href="mailto:events@aurathearthbistro.com">events@aurathearthbistro.com</a></p>
+              </div>
+            </div>
+
+          </div>
+
+          <!-- Quick Message / Inquiry Form -->
+          <div class="contact-form-card">
+            <h3 class="form-title">Send Us a Note</h3>
+            <p class="form-desc">Questions about private dining, special dietary requests, or catering? Drop us a line below.</p>
+            
+            <form id="contact-form" class="site-form">
+              <div class="form-row">
+                <div class="form-group">
+                  <label for="contact-name">Your Full Name *</label>
+                  <input type="text" id="contact-name" name="name" required placeholder="e.g. Julian Hayes">
+                </div>
+                <div class="form-group">
+                  <label for="contact-email">Email Address *</label>
+                  <input type="email" id="contact-email" name="email" required placeholder="julian@example.com">
+                </div>
+              </div>
+
+              <div class="form-group">
+                <label for="contact-subject">Inquiry Type</label>
+                <select id="contact-subject" name="subject">
+                  <option value="general">General Question</option>
+                  <option value="reservation">Table Reservation Query</option>
+                  <option value="events">Private Event / Banquet</option>
+                  <option value="dietary">Dietary / Allergen Consultation</option>
+                  <option value="press">Press & Media</option>
+                </select>
+              </div>
+
+              <div class="form-group">
+                <label for="contact-message">Your Message *</label>
+                <textarea id="contact-message" name="message" rows="4" required placeholder="How can our hospitality team assist you?"></textarea>
+              </div>
+
+              <button type="submit" class="btn btn-primary btn-block">Send Message</button>
+              <div class="form-feedback" id="contact-feedback" aria-live="polite"></div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- TABLE RESERVATION MODAL (Accessible HTML5 <dialog>) -->
+  <dialog id="reservation-dialog" class="reservation-modal" aria-labelledby="modal-title">
+    <div class="modal-wrapper">
+      <button class="modal-close-btn" id="close-modal-btn" type="button" aria-label="Close reservation modal">&times;</button>
+      
+      <div class="modal-header">
+        <span class="modal-tag">Reservations</span>
+        <h2 id="modal-title" class="modal-title">Reserve Your Table at Aura & Hearth</h2>
+        <p class="modal-desc">Please fill out your details and our maître d' will confirm your reservation promptly.</p>
+      </div>
+
+      <form id="reservation-form" class="modal-form">
+        <div class="form-row">
+          <div class="form-group">
+            <label for="reserve-name">Full Name *</label>
+            <input type="text" id="reserve-name" name="name" required placeholder="Claire Danvers">
+          </div>
+          <div class="form-group">
+            <label for="reserve-email">Email Address *</label>
+            <input type="email" id="reserve-email" name="email" required placeholder="claire@example.com">
+          </div>
+        </div>
+
+        <div class="form-row">
+          <div class="form-group">
+            <label for="reserve-phone">Phone Number *</label>
+            <input type="tel" id="reserve-phone" name="phone" required placeholder="(503) 555-0199">
+          </div>
+          <div class="form-group">
+            <label for="reserve-guests">Number of Guests *</label>
+            <select id="reserve-guests" name="guests" required>
+              <option value="1">1 Person (Solo Diner)</option>
+              <option value="2" selected>2 Guests (Intimate Table)</option>
+              <option value="3">3 Guests</option>
+              <option value="4">4 Guests</option>
+              <option value="5">5 Guests</option>
+              <option value="6">6 Guests</option>
+              <option value="large">7+ Guests (Private Dining)</option>
+            </select>
+          </div>
+        </div>
+
+        <div class="form-row">
+          <div class="form-group">
+            <label for="reserve-date">Date *</label>
+            <input type="date" id="reserve-date" name="date" required>
+          </div>
+          <div class="form-group">
+            <label for="reserve-time">Preferred Time Slot *</label>
+            <select id="reserve-time" name="time" required>
+              <option value="">Select a time</option>
+              <option value="17:00">5:00 PM</option>
+              <option value="17:30">5:30 PM</option>
+              <option value="18:00">6:00 PM</option>
+              <option value="18:30">6:30 PM</option>
+              <option value="19:00">7:00 PM (Peak)</option>
+              <option value="19:30">7:30 PM (Peak)</option>
+              <option value="20:00">8:00 PM</option>
+              <option value="20:30">8:30 PM</option>
+              <option value="21:00">9:00 PM</option>
+            </select>
+          </div>
+        </div>
+
+        <div class="form-group">
+          <label for="reserve-seating">Seating Preference</label>
+          <select id="reserve-seating" name="seating">
+            <option value="any">No preference / First available</option>
+            <option value="hearth">Hearthside Main Hall (Warm & Lively)</option>
+            <option value="patio">Garden Courtyard Patio (Romantic fairy lights)</option>
+            <option value="copper-bar">The Copper Bar (Cocktails & Quick bites)</option>
+          </select>
+        </div>
+
+        <div class="form-group">
+          <label for="reserve-notes">Special Requests & Dietary Notes</label>
+          <textarea id="reserve-notes" name="notes" rows="2" placeholder="Anniversary celebration, wheelchair accessibility, nut allergies, vegan substitutions..."></textarea>
+        </div>
+
+        <button type="submit" class="btn btn-primary btn-block btn-lg">Confirm Table Reservation</button>
+        <div class="modal-feedback" id="modal-feedback" aria-live="polite"></div>
+      </form>
+    </div>
+  </dialog>
+
+  <!-- SITE FOOTER -->
+  <footer class="site-footer">
+    <div class="container footer-container">
+      
+      <div class="footer-col brand-col">
+        <a href="#home" class="brand-logo footer-logo">
+          <span class="logo-emblem">✦</span>
+          <span class="logo-text">
+            <span class="brand-name">Aura & Hearth</span>
+            <span class="brand-sub">Bistro & Patisserie</span>
+          </span>
+        </a>
+        <p class="footer-tagline">
+          Honoring rustic culinary heritage with open-flame cooking, wholesome seasonal produce, and soulful hospitality.
+        </p>
+        <div class="social-links" aria-label="Social media profiles">
+          <a href="#" class="social-icon" aria-label="Follow us on Instagram">Instagram</a>
+          <a href="#" class="social-icon" aria-label="Follow us on Facebook">Facebook</a>
+          <a href="#" class="social-icon" aria-label="Follow us on Yelp">Yelp</a>
+          <a href="#" class="social-icon" aria-label="Follow us on OpenTable">OpenTable</a>
+        </div>
+      </div>
+
+      <div class="footer-col links-col">
+        <h4 class="footer-heading">Quick Links</h4>
+        <ul class="footer-nav">
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">Our Story</a></li>
+          <li><a href="#menu">Artisanal Menu</a></li>
+          <li><a href="#specials">Chef Specials</a></li>
+          <li><a href="#gallery">Ambiance Gallery</a></li>
+          <li><a href="#contact">Hours & Location</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-col hours-col">
+        <h4 class="footer-heading">Service Times</h4>
+        <p class="footer-time-text"><strong>Lunch & Hearth:</strong><br>Mon – Fri: 11:30 AM – 3:30 PM</p>
+        <p class="footer-time-text"><strong>Dinner Service:</strong><br>Mon – Sun: 5:00 PM – 11:00 PM</p>
+        <p class="footer-time-text"><strong>Weekend Brunch:</strong><br>Sat & Sun: 9:00 AM – 2:30 PM</p>
+      </div>
+
+      <div class="footer-col newsletter-col">
+        <h4 class="footer-heading">The Hearth Newsletter</h4>
+        <p class="newsletter-desc">Receive secret seasonal recipes, wine release invites, and monthly chef tasting announcements.</p>
+        <form id="newsletter-form" class="newsletter-form">
+          <div class="newsletter-input-group">
+            <input type="email" id="newsletter-email" placeholder="Your email address" required aria-label="Email address for newsletter">
+            <button type="submit" class="btn btn-primary newsletter-submit-btn">Join</button>
+          </div>
+          <div class="newsletter-feedback" id="newsletter-feedback" aria-live="polite"></div>
+        </form>
+      </div>
+
+    </div>
+
+    <div class="footer-bottom">
+      <div class="container footer-bottom-inner">
+        <p class="copyright">© 2026 Aura & Hearth Bistro LLC. All rights reserved.</p>
+        <div class="legal-links">
+          <a href="#">Privacy Policy</a>
+          <span class="sep">•</span>
+          <a href="#">Terms of Dining</a>
+          <span class="sep">•</span>
+          <a href="#">Accessibility Statement</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Toast Notification Container -->
+  <div id="toast" class="toast" role="status" aria-live="polite" aria-hidden="true"></div>
+
+  <!-- JavaScript -->
+  <script src="js/main.js"></script>
+</body>
+</html>
